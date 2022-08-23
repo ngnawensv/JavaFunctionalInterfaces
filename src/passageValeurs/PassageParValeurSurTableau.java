@@ -1,4 +1,4 @@
-package functionalInterfaces;
+package passageValeurs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
