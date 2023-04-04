@@ -1,11 +1,17 @@
 package functionalInterfaces;
 
+
 import java.util.function.Function;
+import java.util.logging.Logger;
+
+
 // Function<T,R>: Represents a function that accepts one argument and produces a result.
 public class _Function {
+    private final static Logger LOGGER = Logger.getLogger(_Function.class.getName());
     public static void main(String[] args) {
         //without Function<T,R>
-        System.out.println(numberPlus1(1));
+        System.out.println();
+        LOGGER.info("xxxx"+numberPlus1(1));
         System.out.println(multiplyBy10(2));
         System.out.println(incrementByOneAndMultiplyByTen(2));
 
