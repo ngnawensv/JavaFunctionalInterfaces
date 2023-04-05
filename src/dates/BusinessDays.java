@@ -17,7 +17,7 @@ public class BusinessDays {
     int j=0;
     while (j < Math.abs(businessDays)){
       // here, all days are added/subtracted
-      calendar.add(Calendar.DAY_OF_MONTH, businessDays > 0 ? 1 : -1);
+      calendar.add(Calendar.DAY_OF_MONTH,  1);
 
       // but at the end it goes to the correct week day.
       // because i is only increased if it is a week day
@@ -41,7 +41,7 @@ public class BusinessDays {
   }
 
   public static void main(String...strings) {
-    SimpleDateFormat s = new SimpleDateFormat("MM/dd/yy ( MMM dd, yyyy )");
+    SimpleDateFormat s = new SimpleDateFormat("MM.dd.yyyy HH:mm:ss");
 
     Date date = new Date();
     int businessDays = 7;
