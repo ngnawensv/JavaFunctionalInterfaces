@@ -1,19 +1,8 @@
-package dates.pojo;
+package pojo;
 
-import java.util.Map;
-
-public class PersonResponse2 {
-  private  String type;
-  private String status;
-  private Long statusNumber;
-
-  public String getType() {
-    return type;
-  }
-
-  public void setType(String type) {
-    this.type = type;
-  }
+public class StatusResponse {
+private String status;
+private Long statusNumber;
 
   public String getStatus() {
     return status;
@@ -33,9 +22,8 @@ public class PersonResponse2 {
 
   @Override
   public String toString() {
-    return "PersonResponse2{" +
-        "type='" + type + '\'' +
-        ", status='" + status + '\'' +
+    return "StatusResponse{" +
+        "status='" + status + '\'' +
         ", statusNumber=" + statusNumber +
         '}';
   }

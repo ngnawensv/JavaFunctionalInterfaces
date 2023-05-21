@@ -1,10 +1,10 @@
-package dates.streams;
+package streams;
 
-import dates.pojo.Person;
-import dates.pojo.PersonResponse;
-import dates.pojo.PersonResponse1;
-import dates.pojo.PersonResponse2;
-import dates.pojo.StatusResponse;
+import pojo.Person;
+import pojo.PersonResponse;
+import pojo.PersonResponse1;
+import pojo.PersonResponse2;
+import pojo.StatusResponse;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

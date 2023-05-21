@@ -1,10 +1,8 @@
-package dates.pojo;
+package pojo;
 
-import java.util.Map;
-
-public class PersonResponse1 {
+public class PersonResponse {
   private  String type;
-  private Map<String,Long> statusResponse;
+  private StatusResponse statusResponse;
 
   public String getType() {
     return type;
@@ -14,17 +12,17 @@ public class PersonResponse1 {
     this.type = type;
   }
 
-  public Map<String, Long> getStatusResponse() {
+  public StatusResponse getStatusResponse() {
     return statusResponse;
   }
 
-  public void setStatusResponse(Map<String, Long> statusResponse) {
+  public void setStatusResponse(StatusResponse statusResponse) {
     this.statusResponse = statusResponse;
   }
 
   @Override
   public String toString() {
-    return "PersonResponse1{" +
+    return "PersonResponse{" +
         "type='" + type + '\'' +
         ", statusResponse=" + statusResponse +
         '}';

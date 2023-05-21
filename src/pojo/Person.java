@@ -1,4 +1,4 @@
-package dates.pojo;
+package pojo;
 
 public class Person {
   private String code;
