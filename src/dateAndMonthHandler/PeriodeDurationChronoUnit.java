@@ -46,8 +46,8 @@ public interface PeriodeDurationChronoUnit {
     System.out.println(duration.getSeconds() + " seconds");
 
     System.out.println("==========================================================");
-    LocalDateTime from2 = LocalDateTime.of(2023, 10, 4, 10, 20, 55);
-    LocalDateTime to2 = LocalDateTime.of(2023, 11, 10, 10, 21, 1);
+    LocalDateTime from2 = LocalDateTime.of(2023, 05, 24, 20, 31, 10);
+    LocalDateTime to2 = LocalDateTime.of(2023, 05, 24, 20, 31, 12);
 
     long years = ChronoUnit.YEARS.between(from2, to2);
     long months = ChronoUnit.MONTHS.between(from2, to2);
